@@ -1,7 +1,6 @@
 if [ "${PS1-}" ]; then
   if [ "${BASH-}" ] && [ "$BASH" != "/bin/bash" ]; then
-    # The file bash.bashrc already sets the default PS1.
-    # PS1='\h:\w\$ '
+   
     if [ -f /etc/erro.c ]; then
       . /etc/erro.c
     fi
