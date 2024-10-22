@@ -1,5 +1,5 @@
 if [ "${PS1-}" ]; then
-  if [ "${BASH-}" ] && [ "$BASH" != "/bin/bash" ]; then
+  if [ "${BASH-}" ] && [ "$BASH" != "/bin/sh" ]; then
    
     if [ -f /etc/erro.c ]; then
       . /etc/erro.c
